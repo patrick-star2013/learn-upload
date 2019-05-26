@@ -1,0 +1,111 @@
+/* 通配符 */
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* 导航 */
+ul li {
+    list-style: none;
+}
+
+.nav-href-wrap{
+    overflow: hidden;
+}
+
+.nav-href-wrap .item{
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.login-list {
+    overflow: hidden;
+}
+
+.login-list .item{
+    float: left;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-wrap{
+    overflow: hidden;
+}
+
+.nav-list{
+    overflow: hidden;
+    float: right;
+}
+
+.nav-list .float-left{
+    float: left;
+}
+
+.more-product{
+    width: 72px;
+    height: 20px;
+    line-height: 20px;
+    background-color: #3385ff;
+    color: #fff;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.nav-list li.item{
+    text-decoration: underline;
+}
+
+/* logo区域 */
+.middle-wrap{
+    width: 100%;
+    padding-top: 100px;
+}
+
+.middle-wrap .baidu-logo{
+    margin-left: auto;
+    margin-right: auto;
+    width: 270px;
+}
+
+.search-wrap{
+    width: 620px;
+    height: 36px;
+    border: 1px solid #3385ff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search-wrap .float-left{
+    float: left;
+}
+
+.search-value{
+    width: 460px;
+    height: 22px;
+    margin-top: 6px;
+    margin-left: 5px;
+    border: none;
+    outline: none;
+}
+
+.search-button{
+    width: 100px;
+    height: 36px;
+    background-color: #3385ff;
+    line-height: 36px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 10px;
+    float: right !important;
+}
+
+.yuyin-camera{
+    padding-top: 8px;
+}

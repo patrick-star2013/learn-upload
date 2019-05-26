@@ -1,0 +1,84 @@
+/*样式重置*/
+*{
+    margin:0;
+    padding:0;
+}
+.center{
+    width: 1200px;
+    margin: 0 auto;
+}
+#page-top{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+#top-city{
+    width:176px;
+    height:40px;
+    background:yellowgreen;
+    float:left;
+    margin-right: 150px;
+}
+
+#box{
+    width: 380px;
+    margin: 0;
+    font-size: 14px;
+    float:left;
+    
+}
+input{
+    width: 260px;
+    border: 1px solid orangered;
+    height: 30px;
+    float: left;
+    background-size: 25px;
+    padding:0 0 0 40px;
+}
+#search{
+    width: 78px;
+    height: 32px;
+    float: right;
+    background: orangered;
+    color: white;
+    text-align: center;
+    line-height: 32px;
+    cursor: pointer;
+}
+.list {
+    display:inline-block;
+    height:22px;
+    padding-left:10px;
+    padding-right:10px;
+    
+}
+.list2{
+    display:inline-block;
+    
+}
+.list3{
+    display:inline-block;
+    
+}
+.list4{
+    display:inline-block;
+}
+.list5{
+    display:inline-block;
+}
+.list6{
+    display:inline-block;
+}
+.list7{
+    display:inline-block;
+}
+.list8{
+    display:inline-block;
+}
+.list9{
+    display:inline-block;
+}
+
+
+
+
+

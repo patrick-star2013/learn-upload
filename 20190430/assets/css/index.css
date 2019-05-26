@@ -1,0 +1,10 @@
+/*div color*/
+#A1{
+    color:hotpink;
+    font-size: 36px;
+    background-color:indigo;
+    border-style:dashed;
+    border-color:indianred;
+    border-width: 5px;
+    padding-top:20px;
+}

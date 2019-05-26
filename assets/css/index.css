@@ -1,0 +1,63 @@
+/*样式重置*/
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.center{
+    width: 1200px;
+    margin: 0 auto;
+}
+/*top-banner*/
+.top-banner{
+    width:100%;
+    height:80px;
+}
+.top-banner-image{
+    width:100%;
+    height:100%;
+    
+}
+.nav-list{
+    width:190px;
+}
+.nav-top-wrap{
+    width:100%;
+    height:170px;
+    border-bottom: 1px solid #b6b6b6;
+
+}
+li{
+    list-style: none;
+}
+.nav-href-wrap .item{
+    width:174px;
+    height: 26px;
+    color:#636363;
+    background-color: #fefefe;
+    font-size: 14px;
+    line-height: 26px;
+    padding-left: 16px;
+}
+
+
+
+.w1 .line{
+    float: left;
+    padding-left: 20px;
+    padding-bottom: 20px;
+
+}
+.w1{
+    overflow: hidden;
+    float: right;
+    
+}
+
+.w{
+    padding:20px;
+    height:0;
+    width:100px;
+}  
+ 
+

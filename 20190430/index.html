@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>网站标题</title>
+        <style>
+            /* css部分 */
+            /* 选择器 - 标签选择器、id选择器、class选择器 */
+            /* 属性:属性值 */
+            #big-box {
+                width: 200px;
+                height: 200px;
+                /*color: sred;*/
+                color: green;
+                font-size: 32px;
+                padding: 20px;
+                margin: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- html -->
+        <!-- DOM -->
+        <!-- 容器 -->
+        <!-- 盒模型 -- content(内容区) padding(内边距) border(边框) margin(外边距) -->
+        <div id="big-box">
+            Hello Wrold!
+        </div>
+        <script>
+            // javaScript(js)
+            window.onload = function(){
+                var Box = document.getElementById('big-box');
+                console.log(Box);
+                // 声明一个变量Box 给变量Box赋值（id为big-box的DOM元素） 
+                Box.onclick = function(){
+                    //给Box绑定点击事件
+                    alert('你点击的区域没有什么用～')
+                }
+            }
+
+            //  1.除'点击事件'外，js还提供了哪些事件？
+            //  2.在body中添加两个div（兄弟关系），其中一个div有两个子元素div。每个div设置不同颜色的字体颜色，背景色，边框，内边距
+        </script>
+    </body>
+</html>

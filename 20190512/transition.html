@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>过渡</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .item{
+            float: left;
+            width: 50px;
+            height: 50px;
+            background: #333;
+            transition: all .3s linear; /* display: block/none 不可以使用过渡*/
+        }
+
+        .active{
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="my-transition">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div style="clear: both;"></div>
+    </div>
+    <script>
+        // 作业:当鼠标移出最大元素#my-transition的时候，删除所有的active类名
+        window.onload = function(){
+            // 获取所有class名为item的元素
+            var list = document.getElementsByClassName('item');
+            // 数组
+            // 给所有item添加鼠标移入和移除事件
+            for(var i = 0; i < list.length; i++){
+                
+                list[i].onmouseover = function(){
+                    var active = document.getElementsByClassName('active')[0];
+                    if(active){
+                        active.classList.remove('active');
+                    }
+                    this.classList.add('active');
+                }
+            }
+        }
+    </script>
+</body>
+</html>

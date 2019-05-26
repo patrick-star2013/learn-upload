@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /* float会导致其父元素高度塌陷（）高度为 */
+        /* 如何解决？ -- 清除浮动(还有哪些清除浮动？) */
+        /* 如何清除浮动？空标签加clear: both */
+        /* 万能清除浮动法 */
+        /* .clear */
+        /* 块级元素、行内元素、行内块元素 -- 区别是什么，如何相互转化，代表标签有哪些 */
+        /* 缩放效果，过渡效果*/
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        #my-float{
+            width: 100%;
+        }
+        .float-item{
+            width: 100px;
+            height: 100px;
+            background-color: #000;
+            float: left;
+        }
+        .clear:after{
+            content: ".";
+            display: block; /* 转为块级元素 */
+            height: 0;
+            clear: both;
+            visibility: hidden; /* 是否可见：隐藏（不可见） */
+            zoom: 1; /* (ie独有的属性，缩放比例) */
+        }
+    </style>
+</head>
+<body>
+    <div id="my-float" class="clear">
+        <div class="float-item"></div>
+        <div class="float-item"></div>
+        <div class="float-item"></div>
+        <div class="float-item"></div>
+        <div class="float-item"></div>
+        <div class="float-item"></div>
+        <div class="float-item"></div>
+        <div class="float-item"></div>
+        <div class="float-item"></div>
+        <div class="float-item"></div>
+        <div class="float-item"></div>
+        <div class="float-item"></div>
+        <div class="float-item"></div>
+        <div class="float-item"></div>
+        <div class="float-item"></div>
+        <div class="float-item"></div>
+        <div class="float-item"></div>
+        <div class="float-item"></div>
+        <div class="float-item"></div>
+        <div class="float-item"></div>
+        <div class="float-item"></div>
+        <div class="float-item"></div>
+        <!--<div style="clear: both;"></div>-->
+    </div>
+</body>
+</html>
